@@ -7,6 +7,9 @@
 # Desktop Layout
 ![Desktop layout](./design/desktop-design.jpg)
 
+# Mobile Layout
+![Desktop layout](./design/mobile-design.jpg)
+
 
 The designs were created to the following widths:
 
