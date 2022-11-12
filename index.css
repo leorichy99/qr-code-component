@@ -6,8 +6,15 @@
   box-sizing: border-box;
 }
 
+:root{
+  --white: hsl(0, 0%, 100%);
+  --Light-gray: hsl(212, 45%, 89%);
+  --Grayish-blue: hsl(220, 15%, 55%);
+  --Dark-blue: hsl(218, 44%, 22%);
+}
+
 body {
-  background: #d5e1ef;
+  background: var(--Light-gray);
   height: 100vh;
   width: 100vw;
   font-size: 14px;
@@ -18,7 +25,7 @@ body {
 .container {
   margin: 100px auto;
   width: 380px;
-  background: white;
+  background: var(--white);
   border-radius: 15px;
   padding: 20px;
   box-shadow: -10px -10px 20px #cbd7e5, 10px 10px 20px #cbd7e5;
@@ -37,13 +44,13 @@ body {
 }
 .info h1 {
   margin-bottom: 20px;
-  color: hsl(218, 44%, 22%);
+  color: var(--Dark-blue);
   font-weight: 700;
   text-align: center;
 }
 
 .info p {
-  color: hsl(220, 15%, 55%);
+  color: var(--Grayish-blue);
   text-align: center;
   font-weight: 400;
   font-size: 15px;
