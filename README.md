@@ -5,6 +5,7 @@
 ## Layout
 
 # Desktop Layout
+![Desktop layout](./design/desktop-design.jpg)
 
 
 The designs were created to the following widths:
